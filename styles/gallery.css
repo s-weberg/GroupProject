@@ -1,0 +1,11 @@
+.h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+img {
+    max-width: 300px;
+    width: 100%;
+}
