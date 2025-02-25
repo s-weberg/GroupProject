@@ -1,8 +1,123 @@
-.h1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 35px;
-    font-weight: normal;
-    font-style: normal;
+body{
+    max-width: 1500px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
+img{
+    max-width: 600px;
+}
 
+h1 {
+    font-family: "Albert Sans", serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #013D5C;
+}
+
+h2{
+    font-family: "Albert Sans", serif;
+    font-weight: 900;
+    font-size: 23px;
+    color: #013D5C;
+}
+
+p{
+    font-family: "Montserrat", serif;
+    font-size: 12px;
+    color: #013D5C;
+    line-height: 1.5;
+}
+
+button{
+    color: #FDF4E4;
+    background-color: #013D5C;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    min-width: 250px;
+    font-family: "Montserrat", serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.header-section{
+    width: 100%;
+    min-width: 500px;
+    height: 100vh;
+    background-image: url('../images/ocean.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo{
+  max-width: 700px;
+  width: 80%;
+  height: auto;
+  margin-top: -100px;
+}
+
+.turquise-section{
+    background-color: #BED4CE;
+    max-height: 600px;
+    max-width: 900px;
+    width: 70%;
+    padding: 20px;
+    margin: 20px;
+    margin-top: -150px;
+    margin-bottom: 10%;
+    border-radius: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.by-the-ocean{
+    text-align: center;
+    margin: 40px;
+}
+
+.intro-section{
+    background-color: #FDF4E4;
+    min-height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.waves-blue{
+    max-width: 400px;
+    margin: 20px;
+}
+
+.intro{
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.intro-text{
+    max-width: 500px;
+    margin: 50px;
+}
+
+.intro-image{
+    max-width: 500px;
+    border-radius: 20px;
+}
