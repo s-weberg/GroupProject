@@ -1,14 +1,11 @@
 body{
-    max-width: 1500px;
     width: 100%;
     margin: auto;
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 
 img{
-    max-width: 600px;
+    /*max-width: 600px;*/
+    display: block;
 }
 
 h1 {
@@ -21,7 +18,7 @@ h1 {
 h2{
     font-family: "Albert Sans", serif;
     font-weight: 900;
-    font-size: 23px;
+    font-size: 30px;
     color: #013D5C;
 }
 
@@ -40,6 +37,7 @@ button{
     padding: 15px;
     margin: 15px;
     min-width: 250px;
+    max-width: 300px;
     font-family: "Montserrat", serif;
     font-size: 12px;
     letter-spacing: 3px;
@@ -70,16 +68,17 @@ button{
     background-color: #BED4CE;
     max-height: 600px;
     max-width: 900px;
-    width: 70%;
+    width: 80%;
     padding: 20px;
-    margin: 20px;
+    margin: 0px;
     margin-top: -150px;
     margin-bottom: 10%;
-    border-radius: 40px;
+    border-radius: 30px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
     align-items: center;
     
 }
@@ -97,15 +96,17 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
 }
 
-.waves-blue{
+.waves-blue, .waves-beige{
     max-width: 400px;
-    margin: 20px;
+    padding: 40px;
 }
 
 .intro{
     padding: 5%;
+    padding-bottom: 20%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -121,3 +122,74 @@ button{
     max-width: 500px;
     border-radius: 20px;
 }
+
+.tables-image{
+    width: 100vw;
+    max-height: 500px;
+    object-fit: cover;
+    
+}
+
+.buttons-section{
+    background-color: #013D5C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7%;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow{
+    background-color: #F6A35A;
+    margin: 40px;
+}
+
+.buttons-p{
+    font-family: "Montserrat", serif;
+    font-size: 12px;
+    color: #FDF4E4;
+    line-height: 1.5;
+    max-width: 600px;
+    text-align: center;
+    margin: 20px;
+}
+
+.images-section{
+    background-color: #FDF4E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.bottom-image{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin: 40px;
+    border-radius: 30px;
+}
+
+.waves-blue-2{
+    max-width: 400px;
+    padding: 40px;
+}
+
