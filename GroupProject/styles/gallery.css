@@ -5,6 +5,14 @@
     font-style: normal;
 }
 
+/*.gallery-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+    border-bottom: solid; 2px;
+    border-top: solid; 2px;
+}*/
+  
+
 .gallery {
     max-width: 1224px;
     width: 90%;
@@ -13,14 +21,7 @@
   
 }
   
-.gallery-title {
-    font-size: 50px;
-    margin-bottom: 20px;
-    border-bottom: solid; 2px;
-    border-top: solid; 2px;
-}
-  
-  .gallery-text {
+.gallery-text {
     display: flex;
     align-items: center;
     flex-direction: column;
