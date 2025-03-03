@@ -25,6 +25,7 @@ body {
 .content-div {
     width: 90%;
     padding: 5%;
+    padding-top: 3%;
 }
 
 
@@ -96,22 +97,22 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 48px;
-    padding-top: 40px;
+    font-size: 40px;
+    padding-top: 30px;
     padding-bottom: 20px;
     
 }
 
 h2 {
-    font-size: 32px;
-    padding-top: 25px;
-    padding-bottom: 10px;
+    font-size: 28px;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 h3, h4, h5, h6 {
     font-size: medium;
     font-weight: 600;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 a, p, .button {
@@ -137,7 +138,7 @@ a:active {
 .button {   /* apply this class to an <a> tag to get a button */
     border: none;
     border-radius: 10px;
-    padding: 7px 15px;
+    padding: 8px 15px;
     min-width: 230px;
     text-transform: uppercase;
     letter-spacing: 27%;
@@ -145,6 +146,10 @@ a:active {
     font-weight: 300;
     text-align: center;
     display: inline-block;
+}
+
+.form-button {
+    padding: 13px 15px;
 }
 
 .blue-button:hover {
