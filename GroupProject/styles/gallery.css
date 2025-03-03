@@ -5,7 +5,77 @@
     font-style: normal;
 }
 
-img {
-    max-width: 300px;
-    width: 100%;
+.gallery {
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+  
 }
+  
+.gallery-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+    border-bottom: solid; 2px;
+    border-top: solid; 2px;
+}
+  
+  .gallery-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; 
+}
+  
+p {
+    font-size: 30px;
+    width: 1200px;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+  
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+     
+}
+  
+.gallery-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+  
+img {
+     border-radius: 20px;
+}
+  
+.suit, .ocean {
+    width: 1200px;
+    max-width: 100%;
+    height: auto;
+}
+  
+.tables {
+    width: 760px;
+    max-width: 100%;
+    height: auto;
+}
+  
+.wine {
+    width: 420px;
+    max-width: 100%;
+    height: auto;
+}
+  
+.plate, .chef {
+    width: 590px;
+    max-width: 100%;
+    height: auto;
+}
+  
+  
+  
+  
