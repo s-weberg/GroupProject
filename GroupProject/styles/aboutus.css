@@ -1,11 +1,102 @@
-.h1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 32px;
-    font-weight: normal;
-    font-style: normal;
+body {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
 }
 
-img {
-    max-width: 300px;
+h1 {
+    font-family: "Albert Sans", serif;
+    font-weight: 900;
+    font-size: 72px;
+    color: #013D5C;
+}
+
+h2 {
+    font-family: "Albert Sans", serif;
+    font-weight: 900;
+    font-size: 52px;
+    color: #013D5C;
+}
+
+h3 {
+    font-family: "Albert Sans", serif;
+    font-weight: 900;
+    font-size: 28px;
+    color: #013D5C;
+}
+
+p {
+    max-width: 500px;
+    font-family: "Montserrat", serif;
+    font-size: 13px;
+    color: #013D5C;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.image-plate {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 300px;
+    overflow: hidden;
+    margin: 30px;
+}
+
+.image-wave {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+
+.card-salad {
+    max-width: 150px;
     width: 100%;
+    border: 2px solid #013D5C;
+    text-align: center;
+    margin: 10px 20px 10px 0px;
+    background-color: #BED4CE;
+}
+
+.card-soup {
+    max-width: 150px;
+    width: 100%;
+    border: 2px solid #013D5C;
+    text-align: center;
+    margin: 10px 20px 10px 0px;
+    background-color: #BED4CE;
+}
+
+.card-BBQ {
+    max-width: 150px;
+    width: 100%;
+    border: 2px solid #013D5C;
+    text-align: center;
+    margin: 10px 20px 10px 0px;
+    background-color: #BED4CE;
 }
