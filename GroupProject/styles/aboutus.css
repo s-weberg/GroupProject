@@ -4,6 +4,16 @@ body {
     margin: auto;
 }
 
+.container {
+    max-width: 1500px;
+    background-color: #FDF4E4;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+
+}
+
 h1 {
     font-family: "Albert Sans", serif;
     font-weight: 900;
@@ -45,13 +55,12 @@ p {
 .image-plate {
     display: flex;
     flex-direction: column;
-    justify-self: center;
-    align-items: center;
     justify-content: center;
-    width: 900px;
-    height: 300px;
+    width: 100vw;
+    max-height: 400px;
+    object-fit: cover;
     overflow: hidden;
-    margin: 30px;
+  
 }
 
 .image-wave {
@@ -61,6 +70,14 @@ p {
     margin: 10px;
 }
 
+.container-menu {
+    max-width: 1500px;
+    background-color: #FDF4E4;
+ 
+
+
+}
+
 .menu {
     display: flex;
     flex-direction: column;
@@ -68,13 +85,20 @@ p {
 }
 
 .menu-container {
+    background-color: #FDF4E4;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center; 
 }
 
+.row-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
-.card-salad {
+
+.card-fish {
     max-width: 150px;
     width: 100%;
     border: 2px solid #013D5C;
@@ -83,7 +107,7 @@ p {
     background-color: #BED4CE;
 }
 
-.card-soup {
+.card-fishtwo {
     max-width: 150px;
     width: 100%;
     border: 2px solid #013D5C;
@@ -92,11 +116,74 @@ p {
     background-color: #BED4CE;
 }
 
-.card-BBQ {
+.card-fishthree {
     max-width: 150px;
     width: 100%;
     border: 2px solid #013D5C;
     text-align: center;
     margin: 10px 20px 10px 0px;
     background-color: #BED4CE;
+}
+
+.row-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.card-fishfour {
+    max-width: 150px;
+    width: 100%;
+    border: 2px solid #013D5C;
+    text-align: center;
+    margin: 10px 20px 10px 0px;
+    background-color: #BED4CE;
+}
+
+.card-fishfive {
+    max-width: 150px;
+    width: 100%;
+    border: 2px solid #013D5C;
+    text-align: center;
+    margin: 10px 20px 10px 0px;
+    background-color: #BED4CE;
+}
+
+.card-fishsix {
+    max-width: 150px;
+    width: 100%;
+    border: 2px solid #013D5C;
+    text-align: center;
+    margin: 10px 20px 10px 0px;
+    background-color: #BED4CE;
+}
+
+.btn-text {
+    font-family: "Albert Sans", serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 20px 0px 5px 0px;
+    color: #013D5C;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    max-width: 664px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: "Albert Sans", serif;
+    font-size: 12px;
+    font-weight: normal;
+    background-color: #013D5C;
+    color: #BED4CE;
+    text-transform: uppercase;
+
 }
