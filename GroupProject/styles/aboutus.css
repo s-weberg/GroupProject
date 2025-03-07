@@ -7,28 +7,28 @@ body {
 h1 {
     font-family: "Albert Sans", serif;
     font-weight: 900;
-    font-size: 72px;
+    font-size: 30px;
     color: #013D5C;
 }
 
 h2 {
     font-family: "Albert Sans", serif;
     font-weight: 900;
-    font-size: 52px;
+    font-size: 23px;
     color: #013D5C;
 }
 
 h3 {
     font-family: "Albert Sans", serif;
     font-weight: 900;
-    font-size: 28px;
+    font-size: 20px;
     color: #013D5C;
 }
 
 p {
     max-width: 500px;
     font-family: "Montserrat", serif;
-    font-size: 13px;
+    font-size: 12px;
     color: #013D5C;
     text-align: center;
     line-height: 1.5;
