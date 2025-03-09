@@ -53,25 +53,25 @@ img {
      border-radius: 20px;
 }
   
-.suit, .ocean {
+.gallery-suit, .gallery-ocean {
     width: 1200px;
     max-width: 100%;
     height: auto;
 }
   
-.tables {
+.gallery-tables {
     width: 806px;
     max-width: 100%;
     height: auto;
 }
   
-.wine {
+.gallery-wine {
     width: 374px;
     max-width: 100%;
     height: auto;
 }
   
-.plate, .chef {
+.gallery-plate, .gallery-chef {
     width: 590px;
     max-width: 100%;
     height: auto;
