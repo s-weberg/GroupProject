@@ -71,20 +71,14 @@ p {
 }
 
 .container-menu {
-    max-width: 1500px;
     background-color: #FDF4E4;
- 
-
-
-}
-
-.menu {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.menu-container {
+
+.container-cards {
     background-color: #FDF4E4;
     display: flex;
     flex-direction: column;
