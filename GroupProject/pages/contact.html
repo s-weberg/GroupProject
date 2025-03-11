@@ -2,13 +2,81 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="../styles/index.css">
     <link rel="stylesheet" href="../styles/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us!</title>
 </head>
 <body>
-    <h1 class="h1">This is a test</h1>
-    <img src="../images/doristhedog.jpg" alt="Doris">    
+    <div class="container-grid">
+        <div class="div-offer">
+            <h1>Contact us!</h1>
+            <p>Our restaurant offers lunch, a full á la carte meny and catering over the whole of Skåne. With local ingredients from 
+                <a href="https://www.tomatenshus.com/" target="_blank">Tomatens hus</a>, <a href="https://larsviken.se/" target="_blank">Larsviken
+                </a> and <a href="https://www.bjarefagel.se/" target="_blank">Bjärefågel</a>, among others, and of course salt-sprinkled fresh 
+                sea food, our chefs create delicious creations for your taste buds.</p>
+        </div>
+        <div class="div-img-1">
+            <img src="../images/tables.png" alt="View from our restaurant" width="300px" height="200px">
+        </div>
+        <div class="div-pitch">
+            <h2>Right by the ocean. Right for any occasion.</h2>
+        </div>
+        <div class="div-hours">
+            <ul>
+                <li><h3>Our opening hours: </h3></li>
+                <li><h3>Lunch:</h3></li>
+                <li>Monday to Friday: 10:00 - 14:00</li>
+                <li><h3>Full à la carte meny:</h3></li>
+                <li>Monday to Thursday: 15:00 - 21:00</li>
+                <li>Friday, Saterday: 15:00 - 01:00</li>
+                <li>Sunday: 11:00 - 21:00</li>  
+            </ul>
+        </div>
+        <div class="div-form">
+            <form action="">
+                <div class="form-label-n-input">
+                    <label for="full-name">FULL NAME</label>
+                    <input class="default-text" type="text" placeholder="First Name Last Name" name="full-name" required minlength="3">
+                </div>
+                <div class="line"></div>
+                <div class="form-label-n-input">
+                    <label for="email">EMAIL</label>
+                    <input class="default-text" type="email" placeholder="Your Email" name="email" required>
+                </div>
+                <div class="line"></div>
+                <div class="form-label-n-input message-drop-down">
+                    <label for="message-drop-down">MESSAGE REGARDING</label>
+                    <select name="message-drop-down" id="message-drop-down">
+                        <option value="table-reservation">Table reservation</option>
+                        <option value="book-premises">Book the premises</option>
+                        <option value="questions-meny">Questions regarding the meny</option>
+                        <option value="catering">Catering</option>
+                        <option value="other-questions" selected>Other questions</option>
+                    </select>
+                </div>
+                <div class="line"></div>
+                <div class="form-label-n-input">
+                    <label for="message">MESSAGE</label>
+                    <textarea name="message" id="" required minlength="1" rows="3" cols="35"></textarea>
+                </div>
+                <div class="line"></div>
+                <button class="submit-btn" type="submit" >SEND MESSAGE</button>
+            </form>
+        </div>
+        <div class="div-img-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15012.709190888618!2d12.761902219509022!3d55.990048297534194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465234a901be67fb%3A0xfc44686ebcbaa91e!2sSundsg%C3%A5rden%20Hotell%20%26%20Konferens!5e0!3m2!1ssv!2sse!4v1741312585386!5m2!1ssv!2sse" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>  
+        <div class="div-address">
+            <h3>Sundsgården Hotell &amp; Konferens</h3>
+            <ul>
+                <li>Örbyvägen 10, 257 30 Rydebäck</li>
+                <li>+46 42-19 38 00</li>
+                <li>info@sundsgarden.se</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
