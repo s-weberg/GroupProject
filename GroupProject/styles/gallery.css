@@ -1,9 +1,24 @@
-.h1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 32px;
-    font-weight: normal;
-    font-style: normal;
+body {
+    background-color: #FDF4E4;
 }
+
+
+h1 {
+    font-family: "Albert Sans", serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #013D5C;
+}
+
+p {
+    max-width: 500px;
+    font-family: "Montserrat", serif;
+    font-size: 12px;
+    color: #013D5C;
+    text-align: center;
+    line-height: 1.5;
+}
+
 
 /*.gallery-title {
     font-size: 50px;
