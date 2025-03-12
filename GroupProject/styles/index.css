@@ -13,6 +13,7 @@ h1 {
     font-weight: 900;
     font-size: 30px;
     color: #013D5C;
+    line-height: 1.5;
 }
 
 h2{
@@ -20,6 +21,7 @@ h2{
     font-weight: 900;
     font-size: 30px;
     color: #013D5C;
+    line-height: 1.5;
 }
 
 p{
@@ -117,6 +119,16 @@ a{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+}
+
+.intro-heading{
+    text-align: left;
+}
+
+.intro-paragraph{
+    padding-bottom: 5%;
+    line-height: 1.8;
 }
 
 .intro-text{
@@ -125,7 +137,9 @@ a{
 }
 
 .intro-image{
-    max-width: 500px;
+    width: 100%;
+    max-width: 600px;
+    max-height: 100%;
     border-radius: 20px;
 }
 
@@ -166,6 +180,7 @@ a{
     max-width: 600px;
     text-align: center;
     margin: 20px;
+    margin-bottom: 5%;
 }
 
 .images-section{

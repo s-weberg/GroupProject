@@ -9,7 +9,7 @@ body {
 .page-div {
     background-color: #FFFFFF;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -25,6 +25,7 @@ body {
 .content-div {
     width: 90%;
     padding: 5%;
+    padding-top: 3%;
 }
 
 
@@ -62,7 +63,7 @@ body {
 .main-logo, .waves-logo {
     max-width: 80%;
     height: auto;
-    padding: 20px;
+    padding: 2%;
 }
 
 .waves {
@@ -81,6 +82,10 @@ body {
     margin: 20px 5%; /* for <hr> line outside a content-div*/
 }
 
+.beige-line {
+    background-color: #FDF4E4;
+}
+
 
 /* Headings and paragraphs */
 
@@ -96,26 +101,30 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 48px;
-    padding-top: 40px;
+    font-size: 40px;
+    padding-top: 30px;
     padding-bottom: 20px;
     
 }
 
 h2 {
-    font-size: 32px;
-    padding-top: 25px;
-    padding-bottom: 10px;
+    font-size: 28px;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 h3, h4, h5, h6 {
     font-size: medium;
     font-weight: 600;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 a, p, .button {
     font-family: 'Montserrat', serif;
+}
+
+p { 
+    font-size: 16px;
 }
 
 
@@ -137,7 +146,7 @@ a:active {
 .button {   /* apply this class to an <a> tag to get a button */
     border: none;
     border-radius: 10px;
-    padding: 7px 15px;
+    padding: 8px 15px;
     min-width: 230px;
     text-transform: uppercase;
     letter-spacing: 27%;
@@ -145,6 +154,10 @@ a:active {
     font-weight: 300;
     text-align: center;
     display: inline-block;
+}
+
+.form-button {
+    padding: 13px 15px;
 }
 
 .blue-button:hover {
@@ -168,8 +181,7 @@ a:active {
 
 .header-logo-div {
     width: 100%;
-    max-height: 600px;
-    /*max-height: 750px;*/
+    height: 100vh;
     background-image: url('../images/ocean.png');
     background-size: cover;
     background-position: center;
@@ -199,11 +211,15 @@ a:active {
     list-style: none;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    font-weight: 500;
+    justify-content: space-evenly;    
     padding: 0;
     margin: 0;
+    font-size: 16px;
+}
+
+.header-list {
+    flex-wrap: nowrap;
+    font-weight: 500;
 }
 
 .header-line {
@@ -211,9 +227,42 @@ a:active {
     margin-top: 12px;
 }
 
-
-
-/*.page-bottom-waves {
+.footer {
     width: 100%;
-    height: fit-content;
-}*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-logo-div {
+    width: 200px;
+    overflow: hidden;
+}
+
+.footer-logo {
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.footer-nav {
+    flex-grow: 2;
+}
+
+.footer-list {
+    flex-wrap: wrap;
+    gap: 20px;
+    a {
+        color: #FDF4E4;
+    }
+    a:hover {
+        color: #F6A35A;
+    }
+    a:active {
+        color: #BED4CE;
+    }
+}
+
+
