@@ -93,6 +93,13 @@ p {
     color: #013D5C;
 }
 
+.food {
+    max-width: 80%;
+    font-family: "Montserrat", serif;
+    font-size: 16px;
+    color: #013D5C;
+    line-height: 1.5;
+}
 
 .card-fish {
     max-width: 50%;
@@ -101,29 +108,11 @@ p {
     border: 2px solid #013D5C;
     margin: 10px 20px 10px 0px;
     background-color: #FFFFFF;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 10px 10px 30px;
     display: flex;
     display: inline-block;
 }
 
-/*
-.card-fishtwo {
-    max-width: 150px;
-    width: 100%;
-    border: 2px solid #013D5C;
-    text-align: center;
-    margin: 10px 20px 10px 0px;
-    background-color: #FFFFFF;
-}
-
-.card-fishthree {
-    max-width: 150px;
-    width: 100%;
-    border: 2px solid #013D5C;
-    text-align: center;
-    margin: 10px 20px 10px 0px;
-    background-color: #FFFFFF;
-}*/
 
 .row-two {
     display: flex;
@@ -139,18 +128,10 @@ p {
     border: 2px solid #013D5C;
     margin: 10px 20px 10px 0px;
     background-color: #FFFFFF;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 10px 10px 30px;
 }
 
-/*
-.card-fishfive {
-    max-width: 150px;
-    width: 100%;
-    border: 2px solid #013D5C;
-    text-align: center;
-    margin: 10px 20px 10px 0px;
-    background-color: #FFFFFF;
-}*/
+
 
 .row-three {
     display: flex;
@@ -165,7 +146,7 @@ p {
     border: 2px solid #013D5C;
     margin: 10px 20px 10px 0px;
     background-color: #FFFFFF;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 10px 10px 30px;
 }
 
 .container-btn {
