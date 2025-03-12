@@ -43,13 +43,7 @@ p {
     text-align: center; 
 }
   
-p {
-    font-size: 30px;
-    width: 1200px;
-    max-width: 100%;
-    margin-bottom: 30px;
-}
-  
+
 .photo-gallery {
     display: flex;
     flex-wrap: wrap;
