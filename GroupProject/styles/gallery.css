@@ -1,3 +1,7 @@
+main {
+    background-color: #FDF4E4;
+}
+
 h1 {
     font-family: "Albert Sans", serif;
     font-weight: 900;
@@ -28,6 +32,7 @@ p {
     width: 90%;
     margin: auto;
     padding: 10px;
+    background-color: ;
   
 }
   
