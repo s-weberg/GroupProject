@@ -9,7 +9,7 @@ body {
 .page-div {
     background-color: #FFFFFF;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -63,7 +63,7 @@ body {
 .main-logo, .waves-logo {
     max-width: 80%;
     height: auto;
-    padding: 20px;
+    padding: 2%;
 }
 
 .waves {
@@ -80,6 +80,10 @@ body {
 
 .outside-line {
     margin: 20px 5%; /* for <hr> line outside a content-div*/
+}
+
+.beige-line {
+    background-color: #FDF4E4;
 }
 
 
@@ -203,11 +207,14 @@ a:active {
     list-style: none;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    font-weight: 500;
+    justify-content: space-evenly;    
     padding: 0;
     margin: 0;
+}
+
+.header-list {
+    flex-wrap: nowrap;
+    font-weight: 500;
 }
 
 .header-line {
@@ -215,9 +222,42 @@ a:active {
     margin-top: 12px;
 }
 
-
-
-/*.page-bottom-waves {
+.footer {
     width: 100%;
-    height: fit-content;
-}*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-logo-div {
+    width: 200px;
+    overflow: hidden;
+}
+
+.footer-logo {
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.footer-nav {
+    flex-grow: 2;
+}
+
+.footer-list {
+    flex-wrap: wrap;
+    gap: 20px;
+    a {
+        color: #FDF4E4;
+    }
+    a:hover {
+        color: #F6A35A;
+    }
+    a:active {
+        color: #BED4CE;
+    }
+}
+
+
