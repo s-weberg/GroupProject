@@ -63,12 +63,10 @@ p {
 
 
 .container-menu {
-    background-color: #FDF4E4;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 30vh;
+    margin: 30px;
     text-align: center;
 }
 
@@ -77,7 +75,8 @@ p {
     background-color: #FDF4E4;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    padding: 10px;
+
 }
 
 .row-one {
@@ -91,26 +90,29 @@ p {
     font-weight: 900;
     font-size: 20px;
     color: #013D5C;
+    text-align: center;
 }
 
 .food {
+    margin: 10px;
     max-width: 80%;
     font-family: "Montserrat", serif;
     font-size: 16px;
     color: #013D5C;
     line-height: 1.5;
+    text-align: center;
 }
 
 .card-fish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 50%;
     width: 100%;
-    height: 50%;
     border: 2px solid #013D5C;
     margin: 10px 20px 10px 0px;
     background-color: #FFFFFF;
-    padding: 10px 10px 10px 30px;
-    display: flex;
-    display: inline-block;
+    padding: 10px
 }
 
 
@@ -122,13 +124,16 @@ p {
 
 
 .card-fishfour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 50%;
     width: 100%;
     height: 50%;
     border: 2px solid #013D5C;
     margin: 10px 20px 10px 0px;
     background-color: #FFFFFF;
-    padding: 10px 10px 10px 30px;
+    padding: 10px;
 }
 
 .row-three {
@@ -138,21 +143,24 @@ p {
 }
 
 .card-fishsix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 50%;
     width: 100%;
     height: 50%;
     border: 2px solid #013D5C;
     margin: 10px 20px 10px 0px;
     background-color: #FFFFFF;
-    padding: 10px 10px 10px 30px;
+    padding: 10px;
 }
 
 .container-btn {
     /*background-color: #FDF4E4;*/
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
+    justify-self: center;
     padding: 20px;
     height: 250px;
 }
@@ -162,8 +170,6 @@ p {
     font-weight: bold;
     font-size: 25px;
     color: #013D5C;
-    display: flex;
-    justify-content: center;
 }
 
 
@@ -172,7 +178,7 @@ p {
 }
 
 .btn:hover {
-    background-color: #BED4CE;
+    background-color: #FDF4E4;
     color: #013D5C;
 }
 
