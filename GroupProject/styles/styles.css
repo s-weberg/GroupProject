@@ -263,7 +263,7 @@ a:active {
 .footer-list {
     flex-wrap: wrap;
     gap: 20px;
- 
+    font-size: 14px;
 }
 
 
