@@ -198,7 +198,7 @@ a:active {
 .header-part-2 {
     position: sticky;
     top: -12px;
-    background-color: white;
+    background-color: #013D5C;
     margin: 0px;
     padding: 0;
 }
@@ -215,6 +215,15 @@ a:active {
     padding: 0;
     margin: 0;
     font-size: 16px;
+    a {
+        color: #FDF4E4;
+    }
+    a:hover {
+        color: #F6A35A;
+    }
+    a:active {
+        color: #BED4CE;
+    }
 }
 
 .header-list {
@@ -254,15 +263,7 @@ a:active {
 .footer-list {
     flex-wrap: wrap;
     gap: 20px;
-    a {
-        color: #FDF4E4;
-    }
-    a:hover {
-        color: #F6A35A;
-    }
-    a:active {
-        color: #BED4CE;
-    }
+ 
 }
 
 
