@@ -45,6 +45,10 @@ button{
     text-transform: uppercase;
 }
 
+a{
+    color: #ffffff;
+}
+
 .header-section{
     width: 100%;
     min-width: 500px;
