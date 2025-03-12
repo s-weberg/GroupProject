@@ -26,7 +26,6 @@ li, option {
     width: 100%;
     height: 100%;
     margin: auto;
-    margin-top: 25px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(7, 1fr);

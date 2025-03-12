@@ -32,8 +32,6 @@ p {
     width: 90%;
     margin: auto;
     padding: 10px;
-    background-color: ;
-  
 }
   
 .gallery-text {
@@ -42,14 +40,12 @@ p {
     flex-direction: column;
     text-align: center; 
 }
-  
-p {
-    font-size: 30px;
-    width: 1200px;
-    max-width: 100%;
-    margin-bottom: 30px;
+
+img {
+    border-radius: 20px;
 }
-  
+ 
+
 .photo-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -64,10 +60,7 @@ p {
     gap: 20px;
 }
   
-img {
-     border-radius: 20px;
-}
-  
+
 .gallery-suit, .gallery-ocean {
     width: 1200px;
     max-width: 100%;
