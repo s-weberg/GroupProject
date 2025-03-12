@@ -1,5 +1,5 @@
 
-body{
+main {
     background-color: #FDF4E4;
 }
 
@@ -154,7 +154,9 @@ p {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 25vh;
+    align-items: center;
+    padding: 20px;
+    height: 250px;
 }
 
 .btn-text {
@@ -164,37 +166,32 @@ p {
     color: #013D5C;
     display: flex;
     justify-content: center;
-
 }
 
 
 .button {
     max-width: 250px;
-    /*width: 100%;
-    display: flex;
-    justify-self: center;
-    text-decoration: none;*/
-
 }
-/*
+
 .btn:hover {
-    background-color: #F6A35A;
+    background-color: #BED4CE;
     color: #013D5C;
-}*/
-/*
+}
+
+
 .btn {
     max-width: 150px;
     width: 100%;
     height: 50px;
     border-radius: 5px;
-   
+    padding: 20px;
     box-sizing: border-box;
     font-family: "Albert Sans", serif;
     font-size: 12px;
     font-weight: bold;
     background-color: #013D5C;
-    color: #FDF4E4;
+    color: #BED4CE;
     text-transform: uppercase;
     border: none;
     text-decoration: none;
-}*/
+}
