@@ -1,7 +1,7 @@
 
-/* Main dimensions and background color divs */
-
-
+body{
+    background-color: #FDF4E4;
+}
 
 .container {
     background-color: #FDF4E4;
@@ -46,7 +46,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 30vh;
+    margin: 30px;
     text-align: center;
 }
 
@@ -150,7 +150,7 @@ p {
 }
 
 .container-btn {
-    background-color: #FDF4E4;
+    /*background-color: #FDF4E4;*/
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -161,7 +161,6 @@ p {
     font-family: "Albert Sans", serif;
     font-weight: bold;
     font-size: 25px;
-    margin: 10px 0px 15px 0px;
     color: #013D5C;
     display: flex;
     justify-content: center;
@@ -170,20 +169,26 @@ p {
 
 
 .button {
+    max-width: 250px;
+    /*width: 100%;
     display: flex;
-    justify-content: center;
-}
+    justify-self: center;
+    text-decoration: none;*/
 
+}
+/*
 .btn:hover {
     background-color: #F6A35A;
     color: #013D5C;
-}
-
+}*/
+/*
 .btn {
-    width: 150px;
-    height: 40px;
+    max-width: 150px;
+    width: 100%;
+    height: 50px;
     border-radius: 5px;
-    margin: 20px 0px 30px 0px;
+   
+    box-sizing: border-box;
     font-family: "Albert Sans", serif;
     font-size: 12px;
     font-weight: bold;
@@ -191,4 +196,5 @@ p {
     color: #FDF4E4;
     text-transform: uppercase;
     border: none;
-}
+    text-decoration: none;
+}*/
