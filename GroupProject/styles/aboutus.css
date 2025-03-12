@@ -1,198 +1,3 @@
-body {
-    background-color: #FDF4E4;
-}
-
-.container {
-    background-color: #FDF4E4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}
-
-h1 {
-    font-family: "Albert Sans", serif;
-    font-weight: 900;
-    font-size: 30px;
-    color: #013D5C;
-}
-
-h2 {
-    font-family: "Albert Sans", serif;
-    font-weight: 900;
-    font-size: 23px;
-    color: #013D5C;
-}
-
-h3 {
-    font-family: "Albert Sans", serif;
-    font-weight: 900;
-    font-size: 20px;
-    color: #013D5C;
-}
-
-p {
-    max-width: 500px;
-    font-family: "Montserrat", serif;
-    font-size: 12px;
-    color: #013D5C;
-    text-align: center;
-    line-height: 1.5;
-}
-
-
-.main-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.image-plate {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100vw;
-    max-height: 400px;
-    object-fit: cover;
-    overflow: hidden;
-  
-}
-
-.image-wave {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-}
-
-.container-menu {
-    background-color: #FDF4E4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.container-cards {
-    background-color: #FDF4E4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 55vh;
-}
-
-.row-one {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-
-.card-fish {
-    max-width: 150px;
-    width: 100%;
-    border: 2px solid #013D5C;
-    text-align: center;
-    margin: 10px 20px 10px 0px;
-    background-color: #BED4CE;
-}
-
-.card-fishtwo {
-    max-width: 150px;
-    width: 100%;
-    border: 2px solid #013D5C;
-    text-align: center;
-    margin: 10px 20px 10px 0px;
-    background-color: #BED4CE;
-}
-
-.card-fishthree {
-    max-width: 150px;
-    width: 100%;
-    border: 2px solid #013D5C;
-    text-align: center;
-    margin: 10px 20px 10px 0px;
-    background-color: #BED4CE;
-}
-
-.row-two {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-
-.card-fishfour {
-    max-width: 150px;
-    width: 100%;
-    border: 2px solid #013D5C;
-    text-align: center;
-    margin: 10px 20px 10px 0px;
-    background-color: #BED4CE;
-}
-
-.card-fishfive {
-    max-width: 150px;
-    width: 100%;
-    border: 2px solid #013D5C;
-    text-align: center;
-    margin: 10px 20px 10px 0px;
-    background-color: #BED4CE;
-}
-
-.card-fishsix {
-    max-width: 150px;
-    width: 100%;
-    border: 2px solid #013D5C;
-    text-align: center;
-    margin: 10px 20px 10px 0px;
-    background-color: #BED4CE;
-}
-
-.container-btn {
-    background-color: #013D5C;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 25vh;
-}
-
-.btn-text {
-    font-family: "Albert Sans", serif;
-    font-weight: bold;
-    font-size: 28px;
-    margin: 10px 0px 15px 0px;
-    color: #F6A35A;
-    display: flex;
-    justify-content: center;
-    margin: 30px 0px 10px 0px;
-}
-
-
-.button {
-    display: flex;
-    justify-content: center;
-    
-}
-
-.btn {
-    width: 150px;
-    height: 40px;
-    border-radius: 5px;
-    margin: 20px 0px 30px 0px;
-    font-family: "Albert Sans", serif;
-    font-size: 12px;
-    font-weight: bold;
-    background-color: #F6A35A;
-    color: #013D5C;
-    text-transform: uppercase;
-    border: none;
-
-}
-
-
-
 
 /* Main dimensions and background color divs */
 
@@ -365,8 +170,6 @@ a:active {
 }
 
 
-
-
 /* --- HEADER AND FOOTER BELOW ---  */
 
 
@@ -417,6 +220,213 @@ a:active {
     margin-bottom: 0px;
     margin-top: 12px;
 }
+
+.container {
+    background-color: #FDF4E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h1 {
+    font-family: "Albert Sans", serif;
+    font-weight: 900;
+    font-size: 35px;
+    color: #013D5C;
+}
+
+h2 {
+    font-family: "Albert Sans", serif;
+    font-weight: 900;
+    font-size: 25px;
+    color: #013D5C;
+}
+
+h3 {
+    font-family: "Albert Sans", serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #013D5C;
+}
+
+p {
+    max-width: 500px;
+    font-family: "Montserrat", serif;
+    font-size: 16px;
+    color: #013D5C;
+  
+    line-height: 1.5;
+}
+
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+}
+
+.image-plate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    max-height: 400px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+.container-menu {
+    background-color: #FDF4E4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    text-align: center;
+}
+
+
+.container-cards {
+    background-color: #FDF4E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.row-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.h3-menu {
+    font-family: "Albert Sans", serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #013D5C;
+}
+
+
+.card-fish {
+    max-width: 50%;
+    width: 100%;
+    height: 50%;
+    border: 2px solid #013D5C;
+    margin: 10px 20px 10px 0px;
+    background-color: #FFFFFF;
+    padding: 10px 30px 10px 30px;
+    display: flex;
+    display: inline-block;
+}
+
+/*
+.card-fishtwo {
+    max-width: 150px;
+    width: 100%;
+    border: 2px solid #013D5C;
+    text-align: center;
+    margin: 10px 20px 10px 0px;
+    background-color: #FFFFFF;
+}
+
+.card-fishthree {
+    max-width: 150px;
+    width: 100%;
+    border: 2px solid #013D5C;
+    text-align: center;
+    margin: 10px 20px 10px 0px;
+    background-color: #FFFFFF;
+}*/
+
+.row-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.card-fishfour {
+    max-width: 50%;
+    width: 100%;
+    height: 50%;
+    border: 2px solid #013D5C;
+    margin: 10px 20px 10px 0px;
+    background-color: #FFFFFF;
+    padding: 10px 30px 10px 30px;
+}
+
+/*
+.card-fishfive {
+    max-width: 150px;
+    width: 100%;
+    border: 2px solid #013D5C;
+    text-align: center;
+    margin: 10px 20px 10px 0px;
+    background-color: #FFFFFF;
+}*/
+
+.row-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-fishsix {
+    max-width: 50%;
+    width: 100%;
+    height: 50%;
+    border: 2px solid #013D5C;
+    margin: 10px 20px 10px 0px;
+    background-color: #FFFFFF;
+    padding: 10px 30px 10px 30px;
+}
+
+.container-btn {
+    background-color: #FDF4E4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 25vh;
+}
+
+.btn-text {
+    font-family: "Albert Sans", serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px 0px 15px 0px;
+    color: #013D5C;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 20px 0px 30px 0px;
+    font-family: "Albert Sans", serif;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #013D5C;
+    color: #FDF4E4;
+    text-transform: uppercase;
+    border: none;
+}
+
+
+
+
 
 .footer {
     width: 100%;
