@@ -1,4 +1,4 @@
-img {
+.contact-img-tables {
     max-width: 300px;
     width: 100%;
     min-height: 200px;
@@ -101,4 +101,9 @@ textarea, option, input, select {
     flex-direction: column;
     justify-items: start;
     align-items: start;
+}
+.footer-logo {
+    padding: 0;
+    max-width: 100%;
+    height: auto;
 }
