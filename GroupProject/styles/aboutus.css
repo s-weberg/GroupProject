@@ -1,225 +1,7 @@
 
 /* Main dimensions and background color divs */
 
-body {
-    background-color: #013D5C;
-    line-height: 25px;
-    overflow-x: hidden;
-}
 
-.page-div {
-    background-color: #FFFFFF;
-    width: 100%;
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
-
-.header-nav, .page-bottom-div {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    width: 90%;
-}
-
-.content-div {
-    width: 90%;
-    padding: 5%;
-    padding-top: 3%;
-}
-
-
-.blue {
-    background-color: #013D5C;
-    color: #FDF4E4;
-}
-
-.beige {
-    background-color: #FDF4E4;
-    color: #013D5C;
-}
-
-.turquise {
-    background-color: #BED4CE;
-    color: #013D5C;
-}
-
-.yellow {
-    background-color: #F6A35A;
-    color: #FFFFFF;
-}
-
-
-
-/* Logos and line elements */
-
-.logo-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-.main-logo, .waves-logo {
-    max-width: 80%;
-    height: auto;
-    padding: 2%;
-}
-
-.waves {
-    padding: 40px 20px;
-}
-
-.line {
-    background-color: #013D5C;
-    border: none;
-    height: 3px;
-    max-width: 1350px;
-    margin: 20px auto;
-}
-
-.outside-line {
-    margin: 20px 5%; /* for <hr> line outside a content-div*/
-}
-
-.beige-line {
-    background-color: #FDF4E4;
-}
-
-
-/* Headings and paragraphs */
-
-.heading {
-    font-family: 'Albert Sans', Verdana, sans-serif;
-    text-transform: uppercase;  
-}
-
-h1, h2 {
-    font-weight: 700;
-    text-align: center;
-    color: #013D5C;
-}
-
-h1 {
-    font-size: 40px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    
-}
-
-h2 {
-    font-size: 28px;
-    padding-top: 20px;
-    padding-bottom: 15px;
-}
-
-h3, h4, h5, h6 {
-    font-size: medium;
-    font-weight: 600;
-    padding-top: 10px;
-}
-
-a, p, .button {
-    font-family: 'Montserrat', serif;
-}
-
-
-/* Links and buttons */
-
-a {
-    color: #013D5C;
-    text-decoration: none;    
-}
-
-a:hover {
-    color: #BED4CE;
-}
-
-a:active {
-    color: #F6A35A;
-}
-
-.button {   /* apply this class to an <a> tag to get a button */
-    border: none;
-    border-radius: 10px;
-    padding: 8px 15px;
-    min-width: 230px;
-    text-transform: uppercase;
-    letter-spacing: 27%;
-    font-size: small;
-    font-weight: 300;
-    text-align: center;
-    display: inline-block;
-}
-
-.form-button {
-    padding: 13px 15px;
-}
-
-.blue-button:hover {
-    /*background-color: #012D4C;*/
-    background-color: #F6A35A;
-    color: #FFFFFF;
-}
-
-.yellow-button:hover {  
-    /*background-color: #e89246;*/
-    background-color: #BED4CE;
-    color: #FFFFFF;
-}
-
-
-/* --- HEADER AND FOOTER BELOW ---  */
-
-
-
-.header-logo-div {
-    width: 100%;
-    height: 100vh;
-    background-image: url('../images/ocean.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-}
-
-
-
-.header-part-2 {
-    position: sticky;
-    top: -12px;
-    background-color: white;
-    margin: 0px;
-    padding: 0;
-}
-
-.header-nav {
-    padding-bottom: 0px;
-}
-
-.nav-list {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;    
-    padding: 0;
-    margin: 0;
-}
-
-.header-list {
-    flex-wrap: nowrap;
-    font-weight: 500;
-}
-
-.header-line {
-    margin-bottom: 0px;
-    margin-top: 12px;
-}
 
 .container {
     background-color: #FDF4E4;
@@ -272,10 +54,11 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     max-height: 400px;
     object-fit: cover;
     overflow: hidden;
+    
 }
 
 
@@ -408,7 +191,11 @@ p {
 .button {
     display: flex;
     justify-content: center;
-    
+}
+
+.btn:hover {
+    background-color: #F6A35A;
+    color: #013D5C;
 }
 
 .btn {
@@ -424,47 +211,3 @@ p {
     text-transform: uppercase;
     border: none;
 }
-
-
-
-
-
-.footer {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.footer-logo-div {
-    width: 200px;
-    overflow: hidden;
-}
-
-.footer-logo {
-    padding: 0;
-    max-width: 100%;
-    height: auto;
-}
-
-.footer-nav {
-    flex-grow: 2;
-}
-
-.footer-list {
-    flex-wrap: wrap;
-    gap: 20px;
-    a {
-        color: #FDF4E4;
-    }
-    a:hover {
-        color: #F6A35A;
-    }
-    a:active {
-        color: #BED4CE;
-    }
-}
-
-
