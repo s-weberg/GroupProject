@@ -13,6 +13,7 @@ h1 {
     font-weight: 900;
     font-size: 30px;
     color: #013D5C;
+    line-height: 1.5;
 }
 
 h2{
@@ -20,6 +21,7 @@ h2{
     font-weight: 900;
     font-size: 30px;
     color: #013D5C;
+    line-height: 1.5;
 }
 
 p{
@@ -29,6 +31,7 @@ p{
     line-height: 1.5;
 }
 
+/*
 button{
     color: #FDF4E4;
     background-color: #013D5C;
@@ -44,6 +47,11 @@ button{
     font-weight: 200;
     text-transform: uppercase;
 }
+
+a{
+    color: #fffff;
+}
+    */
 
 .header-section{
     width: 100%;
@@ -111,6 +119,16 @@ button{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+}
+
+.intro-heading{
+    text-align: left;
+}
+
+.intro-paragraph{
+    padding-bottom: 5%;
+    line-height: 1.8;
 }
 
 .intro-text{
@@ -119,8 +137,12 @@ button{
 }
 
 .intro-image{
-    max-width: 500px;
+    width: 100%;
+    max-width: 600px;
+    max-height: 100%;
     border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 
 .tables-image{
@@ -160,6 +182,7 @@ button{
     max-width: 600px;
     text-align: center;
     margin: 20px;
+    margin-bottom: 5%;
 }
 
 .images-section{
