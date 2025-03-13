@@ -68,6 +68,7 @@ p {
     align-items: center;
     margin: 30px;
     text-align: center;
+    
 }
 
 
@@ -83,6 +84,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
+
 }
 
 .h3-menu {
@@ -120,6 +122,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
+
 }
 
 
@@ -140,6 +143,8 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 40px;
+   
 }
 
 .card-fishsix {
@@ -153,16 +158,20 @@ p {
     margin: 10px 20px 10px 0px;
     background-color: #FFFFFF;
     padding: 10px;
+    
 }
 
 .container-btn {
+
+
     /*background-color: #FDF4E4;*/
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-self: center;
+    align-items: center;
     padding: 20px;
-    height: 250px;
+    height: 160px;
+    margin-top: 40px;
 }
 
 .btn-text {
